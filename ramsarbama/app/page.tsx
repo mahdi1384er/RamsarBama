@@ -4,7 +4,6 @@ import ItemsGrouping1 from "../src/img/trees 1.svg";
 import ItemsGrouping2 from "../src/img/trees 2.svg";
 import ItemsGrouping3 from "../src/img/trees 3.png";
 import ItemsGrouping4 from "../src/img/beach 4.png";
-import { Avatar } from "@nextui-org/react";
 
 export default function Home() {
   return (
@@ -59,6 +58,7 @@ export default function Home() {
                   </ul>
                 </nav>
               </div>
+             <div className="BorderHeader"></div>
               {/* Titel */}
               <div className="h-[40%] flex justify-center items-center">
                 <h1 className="text-[22px]">
@@ -121,7 +121,7 @@ export default function Home() {
                         height="17"
                         viewBox="0 0 20 20"
                         fill="none"
-                        className="relative left-[24px] bottom-[16px]"
+                        className="relative left-[25px] bottom-[16px]"
                       >
                         <path
                           d="M9.47939 17.5264C13.8631 17.5264 17.4168 13.9727 17.4168 9.58901C17.4168 5.20531 13.8631 1.65161 9.47939 1.65161C5.09569 1.65161 1.54199 5.20531 1.54199 9.58901C1.54199 13.9727 5.09569 17.5264 9.47939 17.5264Z"
@@ -149,314 +149,63 @@ export default function Home() {
         </header>
 
         {/* Grouping */}
-        <section className="w-[89%] m-auto text-black relative bottom-[135px]">
+        <section className="w-[89%] m-auto text-black relative bottom-[123px]">
           <div className="flex items-center justify-around">
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center h-[81px]">
               <div className="w-[60px] h-[71px] ">
                 <div className="ItemGrouping">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="200"
-                    height="200"
-                    viewBox="0 0 235 295"
-                    fill="none"
-                    className="relative left-[50px] bottom-[20px]"
-                  >
-                    <g filter="url(#filter0_d_163_967)">
-                      <path
-                        d="M186.112 83.3837C186.112 109.039 173.284 121.867 147.629 121.867C121.973 121.867 109.146 109.039 109.146 83.3837C109.146 57.7282 121.973 44.9004 147.629 44.9004C173.284 44.9004 186.112 57.7282 186.112 83.3837Z"
-                        fill="url(#paint0_linear_163_967)"
-                      />
-                    </g>
-                    <defs>
-                      <filter
-                        id="filter0_d_163_967"
-                        x="0.741821"
-                        y="0.45488"
-                        width="293.774"
-                        height="293.774"
-                        filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
-                      >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
-                        <feColorMatrix
-                          in="SourceAlpha"
-                          type="matrix"
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                          result="hardAlpha"
-                        />
-                        <feOffset dy="63.9582" />
-                        <feGaussianBlur stdDeviation="54.2018" />
-                        <feColorMatrix
-                          type="matrix"
-                          values="0 0 0 0 0.478431 0 0 0 0 0.556863 0 0 0 0 0.972549 0 0 0 0.4 0"
-                        />
-                        <feBlend
-                          mode="normal"
-                          in2="BackgroundImageFix"
-                          result="effect1_dropShadow_163_967"
-                        />
-                        <feBlend
-                          mode="normal"
-                          in="SourceGraphic"
-                          in2="effect1_dropShadow_163_967"
-                          result="shape"
-                        />
-                      </filter>
-                      <linearGradient
-                        id="paint0_linear_163_967"
-                        x1="109.249"
-                        y1="44.9004"
-                        x2="186.018"
-                        y2="121.984"
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop stop-color="#7EB5F9" />
-                        <stop offset="1" stop-color="#6475FF" />
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                  <Image src={ItemsGrouping1} className="ImgsItemGrouping" />
+                  <div className="ItemGroupimgs">
+                    <Image src={ItemsGrouping1} className="w-[30px]" />
+                  </div>
                 </div>
               </div>
               <div>
                 <p className="TitelGrouping">جنگلی</p>
               </div>
             </div>
-            <div className="flex flex-col Groupings-center">
+            <div className="flex flex-col items-center h-[81px]">
               <div className="w-[60px] h-[71px] ">
                 <div className="ItemGrouping">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="200"
-                    height="200"
-                    viewBox="0 0 235 295"
-                    fill="none"
-                    className="relative left-[50px] bottom-[20px]"
-                  >
-                    <g filter="url(#filter0_d_163_967)">
-                      <path
-                        d="M186.112 83.3837C186.112 109.039 173.284 121.867 147.629 121.867C121.973 121.867 109.146 109.039 109.146 83.3837C109.146 57.7282 121.973 44.9004 147.629 44.9004C173.284 44.9004 186.112 57.7282 186.112 83.3837Z"
-                        fill="url(#paint0_linear_163_967)"
-                      />
-                    </g>
-                    <defs>
-                      <filter
-                        id="filter0_d_163_967"
-                        x="0.741821"
-                        y="0.45488"
-                        width="293.774"
-                        height="293.774"
-                        filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
-                      >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
-                        <feColorMatrix
-                          in="SourceAlpha"
-                          type="matrix"
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                          result="hardAlpha"
-                        />
-                        <feOffset dy="63.9582" />
-                        <feGaussianBlur stdDeviation="54.2018" />
-                        <feColorMatrix
-                          type="matrix"
-                          values="0 0 0 0 0.478431 0 0 0 0 0.556863 0 0 0 0 0.972549 0 0 0 0.4 0"
-                        />
-                        <feBlend
-                          mode="normal"
-                          in2="BackgroundImageFix"
-                          result="effect1_dropShadow_163_967"
-                        />
-                        <feBlend
-                          mode="normal"
-                          in="SourceGraphic"
-                          in2="effect1_dropShadow_163_967"
-                          result="shape"
-                        />
-                      </filter>
-                      <linearGradient
-                        id="paint0_linear_163_967"
-                        x1="109.249"
-                        y1="44.9004"
-                        x2="186.018"
-                        y2="121.984"
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop stop-color="#7EB5F9" />
-                        <stop offset="1" stop-color="#6475FF" />
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                  <Image src={ItemsGrouping2} className="ImgsItemGrouping" />
+                  <div className="ItemGroupimgs">
+                    <Image src={ItemsGrouping2} className="w-[30px]" />
+                  </div>
                 </div>
               </div>
-              <div className="text-center">
+              <div>
                 <p className="TitelGrouping">کلبه</p>
               </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center h-[81px]">
               <div className="w-[60px] h-[71px] ">
                 <div className="ItemGrouping">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="200"
-                    height="200"
-                    viewBox="0 0 235 295"
-                    fill="none"
-                    className="relative left-[50px] bottom-[20px]"
-                  >
-                    <g filter="url(#filter0_d_163_967)">
-                      <path
-                        d="M186.112 83.3837C186.112 109.039 173.284 121.867 147.629 121.867C121.973 121.867 109.146 109.039 109.146 83.3837C109.146 57.7282 121.973 44.9004 147.629 44.9004C173.284 44.9004 186.112 57.7282 186.112 83.3837Z"
-                        fill="url(#paint0_linear_163_967)"
-                      />
-                    </g>
-                    <defs>
-                      <filter
-                        id="filter0_d_163_967"
-                        x="0.741821"
-                        y="0.45488"
-                        width="293.774"
-                        height="293.774"
-                        filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
-                      >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
-                        <feColorMatrix
-                          in="SourceAlpha"
-                          type="matrix"
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                          result="hardAlpha"
-                        />
-                        <feOffset dy="63.9582" />
-                        <feGaussianBlur stdDeviation="54.2018" />
-                        <feColorMatrix
-                          type="matrix"
-                          values="0 0 0 0 0.478431 0 0 0 0 0.556863 0 0 0 0 0.972549 0 0 0 0.4 0"
-                        />
-                        <feBlend
-                          mode="normal"
-                          in2="BackgroundImageFix"
-                          result="effect1_dropShadow_163_967"
-                        />
-                        <feBlend
-                          mode="normal"
-                          in="SourceGraphic"
-                          in2="effect1_dropShadow_163_967"
-                          result="shape"
-                        />
-                      </filter>
-                      <linearGradient
-                        id="paint0_linear_163_967"
-                        x1="109.249"
-                        y1="44.9004"
-                        x2="186.018"
-                        y2="121.984"
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop stop-color="#7EB5F9" />
-                        <stop offset="1" stop-color="#6475FF" />
-                      </linearGradient>
-                    </defs>
-                  </svg>
-                  <Image src={ItemsGrouping3} className="ImgsItemGrouping" />
+                  <div className="ItemGroupimgs">
+                    <Image src={ItemsGrouping3} className="w-[30px]" />
+                  </div>
                 </div>
               </div>
               <div>
                 <p className="TitelGrouping">ساحلی</p>
               </div>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center h-[81px]">
               <div className="w-[60px] h-[71px] ">
                 <div className="ItemGrouping">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="200"
-                    height="200"
-                    viewBox="0 0 235 295"
-                    fill="none"
-                    className="relative left-[50px] bottom-[20px]"
-                  >
-                    <g filter="url(#filter0_d_163_967)">
-                      <path
-                        d="M186.112 83.3837C186.112 109.039 173.284 121.867 147.629 121.867C121.973 121.867 109.146 109.039 109.146 83.3837C109.146 57.7282 121.973 44.9004 147.629 44.9004C173.284 44.9004 186.112 57.7282 186.112 83.3837Z"
-                        fill="url(#paint0_linear_163_967)"
-                      />
-                    </g>
-                    <defs>
-                      <filter
-                        id="filter0_d_163_967"
-                        x="0.741821"
-                        y="0.45488"
-                        width="293.774"
-                        height="293.774"
-                        filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB"
-                      >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
-                        <feColorMatrix
-                          in="SourceAlpha"
-                          type="matrix"
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                          result="hardAlpha"
-                        />
-                        <feOffset dy="63.9582" />
-                        <feGaussianBlur stdDeviation="54.2018" />
-                        <feColorMatrix
-                          type="matrix"
-                          values="0 0 0 0 0.478431 0 0 0 0 0.556863 0 0 0 0 0.972549 0 0 0 0.4 0"
-                        />
-                        <feBlend
-                          mode="normal"
-                          in2="BackgroundImageFix"
-                          result="effect1_dropShadow_163_967"
-                        />
-                        <feBlend
-                          mode="normal"
-                          in="SourceGraphic"
-                          in2="effect1_dropShadow_163_967"
-                          result="shape"
-                        />
-                      </filter>
-                      <linearGradient
-                        id="paint0_linear_163_967"
-                        x1="109.249"
-                        y1="44.9004"
-                        x2="186.018"
-                        y2="121.984"
-                        gradientUnits="userSpaceOnUse"
-                      >
-                        <stop stop-color="#7EB5F9" />
-                        <stop offset="1" stop-color="#6475FF" />
-                      </linearGradient>
-                    </defs>
-                  </svg>
-
-                  <Image src={ItemsGrouping4} className="ImgsItemGrouping" />
-                </div>
-                <div className="NewGrouping">
-                  <p>جدید</p>
+                  <div className="ItemGroupimgs">
+                    <Image src={ItemsGrouping4} className="w-[30px]" />
+                  </div>
+                  <div className="NewGrouping">
+                    <p className="TitelNewGrouping">جدید</p>
+                  </div>
                 </div>
               </div>
               <div>
-                <p className="TitelGrouping">ییلاقی</p>
+                <p className="TitelGrouping">جنگلی</p>
               </div>
             </div>
           </div>
         </section>
+
+
       </section>
     </main>
   );

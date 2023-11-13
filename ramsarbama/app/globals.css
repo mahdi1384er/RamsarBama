@@ -20,14 +20,29 @@
 body {
   color: rgb(var(--foreground-rgb));
   direction: rtl;
+  font-family: "Trickster";
 }
 
-/* start header css */
+@font-face {
+  font-family: "Trickster";
+  src: local("Trickster"),
+    url("../src/font/1/Base/Modam-ExtraLight.ttf") format("TrueType");
+}
+
+/* header */
 
 .Headerbg {
   background-image: url("../src/img/e90567c741ffabd70d85c041e7d893de 1.png");
   background-size: cover;
   height: 370px;
+}
+
+.BorderHeader {
+  height: 1px;
+  border: solid 0.1px;
+  border-color: rgba(255, 255, 255, 0.11);
+  position: relative;
+  top: 5px;
 }
 
 .inputHeader {
@@ -87,13 +102,30 @@ body {
   color: white;
   height: 18px;
   width: 36px;
-  font-size: 13px;
+  font-size: 14px;
   text-align: center;
   border-radius: 18.567px 12.378px 0px 18.567px;
   background: #24b26e;
   box-shadow: 0px 2.4756px 45.79864px 0px #24b26e;
   z-index: 1;
   position: relative;
-  bottom: 55px;
+  bottom: 58px;
   right: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TitelNewGrouping {
+  box-shadow: 0px 2.4756px 45.79864px 0px #24b26e;
+}
+
+.ItemGroupimgs {
+  width: 53px;
+  height: 53px;
+  border-radius: 20px;
+  background-color: #6475ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
